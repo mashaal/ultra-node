@@ -1,0 +1,17 @@
+{
+  "name": "ultra-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node  --loader ./loader-importmap.js --loader ./loader-esbuild.js server.jsx"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@jspm/generator": "^1.1.11",
+    "@jspm/import-map": "^1.0.7",
+    "esbuild": "^0.19.2"
+  }
+}
